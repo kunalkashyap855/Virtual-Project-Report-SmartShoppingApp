@@ -1,0 +1,9 @@
+.video_container {
+    margin-left: 152px;
+}
+
+.advice {
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-top: 20px;
+}

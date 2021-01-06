@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 120px;
+}
+
+.grid__item {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.grid__item__logo {
+    max-height: 120px;
+    max-width: 120px;
+    margin-top: 30px;
+}
+
+.grid__item__logo::selection {
+    background: var(--primary-color);
+}
+
+.grid__item__title {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.grid__item__title::selection {
+    color: #fff;
+    background: var(--primary-color);
+}

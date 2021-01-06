@@ -1,0 +1,22 @@
+.container {
+    width: 108px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 90px;
+    max-height: 90px;
+    margin-top: 36px;
+}
+
+.container__link {
+    border-right: 4px solid var(--primary-color);
+    border-radius: 20px;
+}
+
+.icons {
+    color: var(--secondary-color);
+}
+

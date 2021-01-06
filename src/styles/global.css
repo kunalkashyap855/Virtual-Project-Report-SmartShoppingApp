@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #FF1744;
+    --secondary-color: #312E2E;
+}
+
+html {
+    background-color: white;
+    overflow: hidden;
+}
