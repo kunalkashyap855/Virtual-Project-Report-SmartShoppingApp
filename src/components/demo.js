@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 
 import styles from './demo.module.css';
-import video from '../../public/appDemo.mp4';
+import video from '../../static/appDemo.mp4';
 
 export default function demo() {
     return (
